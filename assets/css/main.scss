@@ -36,3 +36,10 @@
     "layout/archive",
     "layout/sidebar"
 ;
+
+/* Let sidebar items wrap instead of spilling into the main column */
+.author__urls li {
+  white-space: normal;
+  padding-left: 1.9em;
+  text-indent: -1.9em;
+}
