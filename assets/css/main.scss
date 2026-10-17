@@ -38,8 +38,10 @@
 ;
 
 /* Let sidebar items wrap instead of spilling into the main column */
-.author__urls li {
-  white-space: normal;
+.sidebar .author__urls li,
+.author__urls li.author__desktop {
+  white-space: normal !important;
+  overflow-wrap: break-word;
   padding-left: 1.9em;
   text-indent: -1.9em;
 }
