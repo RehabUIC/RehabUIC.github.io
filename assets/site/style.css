@@ -219,3 +219,10 @@ section { padding: 56px 0; }
 .page-head-photo { flex: none; }
 .page-head-photo img { width: 180px; height: 180px; object-fit: cover; border-radius: 20px; border: 1px solid #263342; }
 @media (max-width: 680px) { .page-head-photo { order: -1; } .page-head-photo img { width: 110px; height: 110px; border-radius: 16px; } }
+
+/* Hero status line: plain text, not button-like */
+.pill-row { gap: 6px 22px; align-items: center; }
+.pill { padding: 0; border: 0; border-radius: 0; background: none; font-size: 15px; font-weight: 600; }
+.pill-accent { color: var(--accent); background: none; border: 0; display: inline-flex; align-items: center; gap: 8px; }
+.pill-accent::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px rgba(94, 234, 212, 0.18); }
+.pill-plain { color: var(--muted); background: none; border: 0; }
