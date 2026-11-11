@@ -239,3 +239,5 @@ section { padding: 56px 0; }
 .hero-photo .social { gap: 8px; }
 .hero-photo .icon-btn { width: 36px; height: 36px; border-radius: 9px; border-width: 1px; }
 .hero-photo .icon-btn svg { width: 17px; height: 17px; }
+.hero-photo .icon-btn { background: var(--surface); border: 1px solid #263342; color: var(--accent); }
+.hero-photo .icon-btn:hover { background: var(--accent); border-color: var(--accent); color: var(--bg); }
