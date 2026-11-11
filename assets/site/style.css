@@ -236,3 +236,6 @@ section { padding: 56px 0; }
 .hero-photo { flex-direction: column; align-items: center; gap: 16px; }
 .hero-photo .social { justify-content: center; }
 @media (max-width: 680px) { .hero-photo { align-items: flex-start; } .hero-photo .social { justify-content: flex-start; } }
+.hero-photo .social { gap: 8px; }
+.hero-photo .icon-btn { width: 36px; height: 36px; border-radius: 9px; border-width: 1px; }
+.hero-photo .icon-btn svg { width: 17px; height: 17px; }
