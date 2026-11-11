@@ -35,9 +35,16 @@
 <div class="container">
 
   <section class="page-head">
-    <div class="eyebrow">Projects</div>
-    <h1>Research, simulation &amp; real-time graphics</h1>
-    <p>Systems built from scratch: physics, geometry and animation driven by my own code. Click a thumbnail to watch it run.</p>
+    <div class="page-head-row">
+      <div class="page-head-text">
+        <div class="eyebrow">Projects</div>
+        <h1>Research, simulation &amp; real-time graphics</h1>
+        <p>Systems built from scratch: physics, geometry and animation driven by my own code. Click a thumbnail to watch it run.</p>
+      </div>
+      <a class="page-head-photo" href="./" aria-label="Rehab Uddin Shawon, back to homepage">
+        <img src="images/profile.jpg" alt="Rehab Uddin Shawon" width="180" height="180">
+      </a>
+    </div>
     <div class="filters" role="group" aria-label="Filter projects">
       <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
       <button type="button" class="filter-btn" data-filter="research" aria-pressed="false">Research</button>
@@ -79,11 +86,20 @@
         </div>
       </article>
       <article class="card" data-category="research">
+        <div class="card-media"><a class="video-thumb" href="https://youtu.be/Aj9Vq0TJB-c" aria-label="Watch the IEEE ICTAI 2026 talk on scaling robot teams on YouTube"><img src="https://i.ytimg.com/vi/Aj9Vq0TJB-c/hqdefault.jpg" alt="" loading="lazy"><span class="play" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 22 22"><path d="M5 3 L19 11 L5 19 Z" fill="#5EEAD4"/></svg></span></a></div>
+        <div class="card-body">
+          <span class="card-cat">RESEARCH</span>
+          <h3>Scaling to ten robot types</h3>
+          <p>A priority-aware grid sensor lets one shared policy coordinate up to ten robot types and generalize to unseen tasks. Presented at IEEE ICTAI 2026.</p>
+          <div class="tags"><span>MARL</span><span>Grid sensing</span><span>Scalability</span></div>
+        </div>
+      </article>
+      <article class="card" data-category="research">
         <div class="card-media"><a class="video-thumb" href="https://www.youtube.com/watch?v=soslmJ3SYZs" aria-label="Watch Heterogeneous robot teams on YouTube"><img src="https://i.ytimg.com/vi/soslmJ3SYZs/hqdefault.jpg" alt="" loading="lazy"><span class="play" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 22 22"><path d="M5 3 L19 11 L5 19 Z" fill="#5EEAD4"/></svg></span></a></div>
         <div class="card-body">
           <span class="card-cat">RESEARCH</span>
           <h3>Heterogeneous robot teams</h3>
-          <p>One shared policy learns robot-specific roles and transfers to sequential and collaborative tasks. IJMERR 2026, ICTAI 2026.</p>
+          <p>One shared policy learns robot-specific roles and transfers to sequential and collaborative tasks. IJMERR 2026.</p>
           <div class="tags"><span>MARL</span><span>PPO</span><span>ML-Agents</span></div>
         </div>
       </article>
