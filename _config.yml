@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Rehab Uddin Shawon"
   pronouns         : # example: "she/her"  
-  bio              : "PhD student at the Electronic Visualization Lab, University of Illinois Chicago"
+  bio              : "PhD student @ UIC Electronic Visualization Lab · XR & AI · Open to Summer 2027 internships"
   location         : "Chicago, IL"
   employer         : "University of Illinois Chicago"
   uri              : # URL
@@ -34,7 +34,7 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # URL
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=z99KAacAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : # URL
@@ -65,7 +65,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "rushawon"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

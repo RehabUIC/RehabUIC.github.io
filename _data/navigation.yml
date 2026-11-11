@@ -2,6 +2,9 @@
 # Removing a link hides it from the header.
 
 main:
+  - title: "Projects"
+    url: /portfolio/
+
   - title: "Publications"
     url: /publications/
 
